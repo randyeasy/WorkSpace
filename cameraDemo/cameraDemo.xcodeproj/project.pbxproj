@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3A733061756ECFE00EAAA19 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A733051756ECFE00EAAA19 /* QTKit.framework */; };
+		C3A733081756EEB300EAAA19 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A733071756EEB300EAAA19 /* Quartz.framework */; };
+		C3A7330A1756EEBB00EAAA19 /* ImageCaptureCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A733091756EEBB00EAAA19 /* ImageCaptureCore.framework */; };
+		C3A7330C1756F8AC00EAAA19 /* Purple_show_star5.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A7330B1756F8AC00EAAA19 /* Purple_show_star5.png */; };
+		C3ABB7811756013300AEAA6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3ABB7801756013300AEAA6E /* Cocoa.framework */; };
+		C3ABB78B1756013300AEAA6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3ABB7891756013300AEAA6E /* InfoPlist.strings */; };
+		C3ABB78D1756013400AEAA6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ABB78C1756013400AEAA6E /* main.m */; };
+		C3ABB7911756013400AEAA6E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C3ABB78F1756013400AEAA6E /* Credits.rtf */; };
+		C3ABB7941756013400AEAA6E /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ABB7931756013400AEAA6E /* SMAppDelegate.m */; };
+		C3ABB7971756013400AEAA6E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3ABB7951756013400AEAA6E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3A733051756ECFE00EAAA19 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		C3A733071756EEB300EAAA19 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		C3A733091756EEBB00EAAA19 /* ImageCaptureCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageCaptureCore.framework; path = System/Library/Frameworks/ImageCaptureCore.framework; sourceTree = SDKROOT; };
+		C3A7330B1756F8AC00EAAA19 /* Purple_show_star5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Purple_show_star5.png; sourceTree = "<group>"; };
+		C3ABB77D1756013300AEAA6E /* cameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ABB7801756013300AEAA6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C3ABB7831756013300AEAA6E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C3ABB7841756013300AEAA6E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C3ABB7851756013300AEAA6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3ABB7881756013300AEAA6E /* cameraDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cameraDemo-Info.plist"; sourceTree = "<group>"; };
+		C3ABB78A1756013300AEAA6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3ABB78C1756013400AEAA6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3ABB78E1756013400AEAA6E /* cameraDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cameraDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C3ABB7901756013400AEAA6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C3ABB7921756013400AEAA6E /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		C3ABB7931756013400AEAA6E /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		C3ABB7961756013400AEAA6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3ABB77A1756013300AEAA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A7330A1756EEBB00EAAA19 /* ImageCaptureCore.framework in Frameworks */,
+				C3A733081756EEB300EAAA19 /* Quartz.framework in Frameworks */,
+				C3A733061756ECFE00EAAA19 /* QTKit.framework in Frameworks */,
+				C3ABB7811756013300AEAA6E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3ABB7741756013300AEAA6E = {
+			isa = PBXGroup;
+			children = (
+				C3A733091756EEBB00EAAA19 /* ImageCaptureCore.framework */,
+				C3A733071756EEB300EAAA19 /* Quartz.framework */,
+				C3A733051756ECFE00EAAA19 /* QTKit.framework */,
+				C3ABB7861756013300AEAA6E /* cameraDemo */,
+				C3ABB77F1756013300AEAA6E /* Frameworks */,
+				C3ABB77E1756013300AEAA6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3ABB77E1756013300AEAA6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABB77D1756013300AEAA6E /* cameraDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3ABB77F1756013300AEAA6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABB7801756013300AEAA6E /* Cocoa.framework */,
+				C3ABB7821756013300AEAA6E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3ABB7821756013300AEAA6E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABB7831756013300AEAA6E /* AppKit.framework */,
+				C3ABB7841756013300AEAA6E /* CoreData.framework */,
+				C3ABB7851756013300AEAA6E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C3ABB7861756013300AEAA6E /* cameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABB7921756013400AEAA6E /* SMAppDelegate.h */,
+				C3ABB7931756013400AEAA6E /* SMAppDelegate.m */,
+				C3ABB7951756013400AEAA6E /* MainMenu.xib */,
+				C3ABB7871756013300AEAA6E /* Supporting Files */,
+			);
+			path = cameraDemo;
+			sourceTree = "<group>";
+		};
+		C3ABB7871756013300AEAA6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3A7330B1756F8AC00EAAA19 /* Purple_show_star5.png */,
+				C3ABB7881756013300AEAA6E /* cameraDemo-Info.plist */,
+				C3ABB7891756013300AEAA6E /* InfoPlist.strings */,
+				C3ABB78C1756013400AEAA6E /* main.m */,
+				C3ABB78E1756013400AEAA6E /* cameraDemo-Prefix.pch */,
+				C3ABB78F1756013400AEAA6E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3ABB77C1756013300AEAA6E /* cameraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3ABB79A1756013400AEAA6E /* Build configuration list for PBXNativeTarget "cameraDemo" */;
+			buildPhases = (
+				C3ABB7791756013300AEAA6E /* Sources */,
+				C3ABB77A1756013300AEAA6E /* Frameworks */,
+				C3ABB77B1756013300AEAA6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cameraDemo;
+			productName = cameraDemo;
+			productReference = C3ABB77D1756013300AEAA6E /* cameraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3ABB7751756013300AEAA6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "yan xiaoliang";
+			};
+			buildConfigurationList = C3ABB7781756013300AEAA6E /* Build configuration list for PBXProject "cameraDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3ABB7741756013300AEAA6E;
+			productRefGroup = C3ABB77E1756013300AEAA6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3ABB77C1756013300AEAA6E /* cameraDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3ABB77B1756013300AEAA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ABB78B1756013300AEAA6E /* InfoPlist.strings in Resources */,
+				C3ABB7911756013400AEAA6E /* Credits.rtf in Resources */,
+				C3ABB7971756013400AEAA6E /* MainMenu.xib in Resources */,
+				C3A7330C1756F8AC00EAAA19 /* Purple_show_star5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3ABB7791756013300AEAA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ABB78D1756013400AEAA6E /* main.m in Sources */,
+				C3ABB7941756013400AEAA6E /* SMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3ABB7891756013300AEAA6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3ABB78A1756013300AEAA6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3ABB78F1756013400AEAA6E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3ABB7901756013400AEAA6E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C3ABB7951756013400AEAA6E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3ABB7961756013400AEAA6E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3ABB7981756013400AEAA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C3ABB7991756013400AEAA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C3ABB79B1756013400AEAA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cameraDemo/cameraDemo-Prefix.pch";
+				INFOPLIST_FILE = "cameraDemo/cameraDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3ABB79C1756013400AEAA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cameraDemo/cameraDemo-Prefix.pch";
+				INFOPLIST_FILE = "cameraDemo/cameraDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3ABB7781756013300AEAA6E /* Build configuration list for PBXProject "cameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ABB7981756013400AEAA6E /* Debug */,
+				C3ABB7991756013400AEAA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3ABB79A1756013400AEAA6E /* Build configuration list for PBXNativeTarget "cameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ABB79B1756013400AEAA6E /* Debug */,
+				C3ABB79C1756013400AEAA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3ABB7751756013300AEAA6E /* Project object */;
+}
